@@ -1,13 +1,10 @@
 <?php
-$t = date("H");
+$x = 6;
 
-if ($t < "10") {
-    echo "Have a good morning!";
-} elseif ($t < "20") {
-    echo "Have a good day!";
-} else {
-    echo "Have a good night!";
-}
+do {
+    echo "The number is: $x <br>";
+    $x++;
+} while ($x<=5);
 ?>
 
 <!DOCTYPE html>
